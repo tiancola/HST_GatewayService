@@ -1,0 +1,52 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E305" />
+          <option value="E231" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="OnlineBookShopping.zhao" />
+          <option value="OnlineBookShopping.OnlineBookShopping" />
+          <option value="OnlineBookShopping.BookManagement" />
+          <option value="OnlineBookShopping.ShoppingCart" />
+          <option value="OnlineBookShopping.LookforaBook" />
+          <option value="OnlineBookShopping.LookAgainforaBook" />
+          <option value="OnlineBookShopping.RelatedTitles" />
+          <option value="OnlineBookShopping.Barnes" />
+          <option value="OnlineBookShopping.AmazonBooks" />
+          <option value="OnlineBookShopping.NobleBooks" />
+          <option value="OnlineBookShopping.SearchBook" />
+          <option value="OnlineBookShopping.ShowBookInfo" />
+          <option value="OnlineBookShopping.ShowRelatedBooks" />
+          <option value="OnlineBookShopping.Barnes_NobleBooks" />
+          <option value="OnlineBookShopping.BookSearching" />
+          <option value="OnlineBookShopping.BookDescription" />
+          <option value="OnlineBookShopping.AmazonShoppingCart" />
+          <option value="OnlineBookShopping.AddMoreBooks" />
+          <option value="OnlineBookShopping.AddaBook" />
+          <option value="OnlineBookShopping.AzmazonShoppingCart" />
+          <option value="OnlineBookShopping.Barnes_NobleShoppingCart" />
+          <option value="OnlineBookShopping.dead" />
+          <option value="驾驶决策可变模型.EnvironmentalPerception" />
+          <option value="驾驶决策可变模型.DrivingDecisionMasterProcessModel" />
+          <option value="驾驶决策可变模型.DecisionLearning_Generation" />
+          <option value="驾驶决策可变模型.DecisionResponse" />
+          <option value="驾驶决策可变模型.Real_timePerceptionModelI" />
+          <option value="驾驶决策可变模型.TrainingPerceptualProcessModel" />
+          <option value="驾驶决策可变模型.Real_timePerceptionModelII" />
+          <option value="驾驶决策可变模型.DecisionLearningProcessModel" />
+          <option value="驾驶决策可变模型.DecisionGenerationProcessModel" />
+          <option value="gy可变模型.*" />
+          <option value="驾驶决策可变模型.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
