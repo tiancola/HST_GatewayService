@@ -1,4 +1,4 @@
-/**
+package pers.zk.utils; /**
  * @date:2023/6/19 14:44
  * @author:Mr.zhao
  * @Description:
@@ -85,7 +85,7 @@ public class SocketServer {
         // 根据MType值调用相应的Python脚本
         // 使用Java的ProcessBuilder执行外部命令调用Python脚本
         try {
-            ProcessBuilder processBuilder = new ProcessBuilder("python", "F:\\work_space\\Hst_GatewayService\\" + mType + ".py", json);
+            ProcessBuilder processBuilder = new ProcessBuilder("E:\\conda\\envs\\hst\\python.exe", "F:\\work_space\\Hst_GatewayService\\" + mType + ".py", json);
             processBuilder.redirectErrorStream(true);
             Process process = processBuilder.start();
             // 读取Python脚本的输出

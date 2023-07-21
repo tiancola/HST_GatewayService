@@ -1,10 +1,10 @@
+package pers.zk.utils;
+
 import com.dingtalk.api.DefaultDingTalkClient;
 import com.dingtalk.api.DingTalkClient;
 import com.dingtalk.api.request.OapiMessageCorpconversationAsyncsendV2Request;
-import com.dingtalk.api.request.OapiMessageCorpconversationSendbytemplateRequest;
 import com.dingtalk.api.request.OapiRobotSendRequest;
 import com.dingtalk.api.response.OapiMessageCorpconversationAsyncsendV2Response;
-import com.dingtalk.api.response.OapiMessageCorpconversationSendbytemplateResponse;
 import com.dingtalk.api.response.OapiRobotSendResponse;
 import com.taobao.api.ApiException;
 
@@ -16,7 +16,6 @@ import org.springframework.beans.factory.annotation.Value;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
-import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.security.InvalidKeyException;
@@ -64,10 +63,10 @@ public class DingDingUtil {
 
 
     public static void main(String[] args) {
-//        DingDingUtil dingDingUtil = new DingDingUtil();
+//        pers.zk.utils.DingDingUtil dingDingUtil = new pers.zk.utils.DingDingUtil();
 //        String context = "测试--长安大学";
 //        try {
-//            Long errorCode = dingDingUtil.send(context);
+//            Long errorCode = dingDingUtil.pers.zk.utils.send(context);
 //            System.out.println("钉钉消息返回码: " + errorCode);
 //        } catch (Exception e) {
 //            System.out.println("钉钉消息发送失败: " + e.getMessage());
